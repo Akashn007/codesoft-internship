@@ -1,0 +1,151 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e2abab;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #f9f9f9;
+}
+
+section {
+    padding: 60px 0;
+}
+
+#hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #1e1a1a;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ff6b6b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff4747;
+}
+
+#about {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#portfolio {
+    background-color: #333;
+    color: #fff;
+    padding: 60px 0;
+}
+
+#portfolio h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+}
+
+#contact {
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    padding: 60px 0;
+}
+
+#contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+/* Add this CSS to style the social media buttons */
+.footer_social {
+    margin-top: 20px;
+}
+
+.footer_social a {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer_social a:hover {
+    color: #0077B5; /* Change to the color of your choice */
+}
